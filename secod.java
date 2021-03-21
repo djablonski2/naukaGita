@@ -18,13 +18,18 @@ public class waitsExplict {
         String baseUrl = "http://www.facebook.com";
         driverWithWaits.get(baseUrl);
 
+                String baseUrl = "http://www.facebook.com";
+        driverWithWaits.get(baseUrl);
+
         //Explicit wait - used to set the waiting time for a particular instance only
         WebDriverWait myWaitVar = new WebDriverWait(driverWithWaits,5);
 
         WebElement cookieActButton = driverWithWaits.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
         cookieActButton.click();
 
-
+        WebElement cookieActButton = driverWithWaits.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
+        cookieActButton.click();
+        
         myWaitVar.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
         driverWithWaits.findElement(By.id("email")).sendKeys("tutorial");
 
