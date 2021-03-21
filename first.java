@@ -27,14 +27,21 @@ public class conditions {
         if (passText.isEnabled() ){
             passText.sendKeys("password");
         }
-
+        WebElement passText = driver.findElement(By.id("pass"));
+        if (passText.isEnabled() ){
+            passText.sendKeys("password");
+        }
 
         if (passText.isEnabled()) {
             passText.sendKeys("password");
         } else {
             System.out.println("Test Failed");
         }
-
+        if (passText.isEnabled()) {
+            passText.sendKeys("password");
+        } else {
+            System.out.println("Test Failed");
+        }
         WebElement loginButton = driver.findElement(By.name("login"));
 
 //        isEnabled()
