@@ -1,6 +1,7 @@
 package basics;
 //pierwszy sposób działajcej wersji 
 //zmiany w pierwszym sposobie
+//ponowne zmiany w pierwszym branchu
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
