@@ -27,6 +27,9 @@ String baseUrl = "http://www.facebook.com";
         //Explicit wait - used to set the waiting time for a particular instance only
         WebDriverWait myWaitVar = new WebDriverWait(driverWithWaits,5);
 
+        //Explicit wait - used to set the waiting time for a particular instance only
+        WebDriverWait myWaitVar = new WebDriverWait(driverWithWaits,5);
+
         WebElement cookieActButton = driverWithWaits.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
         cookieActButton.click();
 

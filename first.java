@@ -17,6 +17,8 @@ public class conditions {
 
         WebElement cookieActButton = driver.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
         cookieActButton.click();
+        WebElement cookieActButton = driver.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
+        cookieActButton.click();        
 
         WebElement loginText = driver.findElement(By.id("email"));
         if (loginText.isEnabled()){
