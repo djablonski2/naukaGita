@@ -22,7 +22,9 @@ public class conditions {
         if (loginText.isEnabled()){
             loginText.sendKeys("test@test.com");
         }
-
+// ponownie zmaany w fisrt i second
+WebDriver driver = new ChromeDriver();        
+WebDriver driver = new ChromeDriver();
         WebElement passText = driver.findElement(By.id("pass"));
         if (passText.isEnabled() ){
             passText.sendKeys("password");

@@ -20,7 +20,10 @@ public class waitsExplict {
 
                 String baseUrl = "http://www.facebook.com";
         driverWithWaits.get(baseUrl);
-
+// ponownie zmaany w fisrt i second
+String baseUrl = "http://www.facebook.com";
+String baseUrl = "http://www.facebook.com";
+        
         //Explicit wait - used to set the waiting time for a particular instance only
         WebDriverWait myWaitVar = new WebDriverWait(driverWithWaits,5);
 
