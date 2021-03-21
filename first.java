@@ -14,7 +14,7 @@ public class conditions {
         WebDriver driver = new ChromeDriver();
         String baseUrl = "http://www.facebook.com";
         driver.get(baseUrl);
-
+//zmiany w nowym branchy firstBranch
         WebElement cookieActButton = driver.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
         cookieActButton.click();
         WebElement cookieActButton = driver.findElement(By.cssSelector("[data-cookiebanner=\"accept_button\"]"));
