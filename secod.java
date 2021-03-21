@@ -1,6 +1,9 @@
 package basics;
+//MERGE ZMIAN Z fisrt i second branch
 //drugi sposób działajcej wersji 
 //wykonane zmiany w drugim sposobie
+//pierwszy sposób działajcej wersji 
+//zmiany w pierwszym sposobie
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
