@@ -22,7 +22,7 @@ public class waitsExplict {
 
         String baseUrl = "http://www.facebook.com";
         driverWithWaits.get(baseUrl);
-
+//cos nowego do PR
                 String baseUrl = "http://www.facebook.com";
         driverWithWaits.get(baseUrl);
 // ponownie zmaany w fisrt i second
